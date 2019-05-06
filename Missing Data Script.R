@@ -1,18 +1,18 @@
 #####################################################################
-#Recall the results of the linear regression model                  #
-#we created yesterday using backward model selection:               #
-#                                                                   #
-#Call:                                                              #
-# lm(formula = bwt ~ lwt + smoke + hyper + urirr, data = lowbwt)    #
-#Coefficients:                                                      #
-#              Estimate   Std. Error  t value  Pr(>|t|)             #
-#(Intercept)   2575.77        226.82   11.356   < 2e-16 ***         #
-#lwt              4.51          1.66    2.716  0.007231 **          #
-#smoke         -240.08        100.14   -2.397  0.017508 *           #
-#hyper         -649.27        206.35   -3.146  0.001928 **          #
-#urirr         -548.92        139.44   -3.937  0.000117 ***         #
-#                                                                   #
-#Multiple R-squared:  0.1735,	Adjusted R-squared:  0.1555         #
+#Recall the results of the linear regression model                  
+#we created yesterday using backward model selection:               
+#                                                                   
+#Call:                                                            
+# lm(formula = bwt ~ lwt + smoke + hyper + urirr, data = lowbwt)  
+#Coefficients:                                                    
+#              Estimate   Std. Error  t value  Pr(>|t|)             
+#(Intercept)   2575.77        226.82   11.356   < 2e-16 ***         
+#lwt              4.51          1.66    2.716  0.007231 **          
+#smoke         -240.08        100.14   -2.397  0.017508 *           
+#hyper         -649.27        206.35   -3.146  0.001928 **          
+#urirr         -548.92        139.44   -3.937  0.000117 ***         
+#                                                                   
+#Multiple R-squared:  0.1735,	Adjusted R-squared:  0.1555         
 #####################################################################
 
 #install.packages("mice")
