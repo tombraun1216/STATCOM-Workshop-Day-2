@@ -1,30 +1,30 @@
 ##################################################################################
 #DATA DESCRIPTION                                                                #
 #These data come from Appendix 1 of Hosmer and Lemeshow (1989), and were         #	
-#collected at Baystate Medical Center, Springfield MA, during 1986. 		      #
-#Low birth weight is an outcome that has been of concern to physicians		 #
-#for years. This is due to the fact that infant mortality rates and birth	      #	
-#defect rates are very high for low birth weight babies. A woman's behavior	 #		
+#collected at Baystate Medical Center, Springfield MA, during 1986. 		         #
+#Low birth weight is an outcome that has been of concern to physicians	     	   #
+#for years. This is due to the fact that infant mortality rates and birth	       #	
+#defect rates are very high for low birth weight babies. A woman's behavior 	   #		
 #during pregnancy (including diet, smoking habits, and receiving prenatal care)  #				
 #can greatly alter the chances of carrying the baby to term and, consequently,   #
-#of delivering a baby of normal birth weight. 			                     #
+#of delivering a baby of normal birth weight. 			                             #
 ##################################################################################
 
 
 ##################################################################################
 #DATA DICTIONARY                                                                 #
-#Variable Name	  Description                                                     #
-#id	              Patient ID                                                    #
-#lbw	              Indicator of low birth weight (< 2500 g); 0=no; 1=yes         #
-#age	              Age of mother in years                                        # 
-#lwt	              Weight of mother (in pounds) at last menstrual cycle          #
+#Variable Name	  Description                                                    #
+#id	              Patient ID                                                     #
+#lbw	            Indicator of low birth weight (< 2500 g); 0=no; 1=yes          #
+#age	            Age of mother in years                                         # 
+#lwt	            Weight of mother (in pounds) at last menstrual cycle           #
 #race_eth	        Race/ethnicity of mother (1=white; 2=black; 3=other)           #
-#smoke	        Smoking status during pregnancy (0=no; 1=yes)                  #
-#ptl	              History of premature Labor (0=no; 1=yes)                      #
-#hyper	        History of hypertension (0=no; 1=yes)                          #
-#urirr	        Presence of uterine irritability (0=no; 1=yes)                 # 
-#pvft	              Number of physician visits during first trimester        #
-#bwt	              Child's birthweight in grams                                  #
+#smoke	          Smoking status during pregnancy (0=no; 1=yes)                  #
+#ptl	            History of premature Labor (0=no; 1=yes)                       #
+#hyper	          History of hypertension (0=no; 1=yes)                          #
+#urirr	          Presence of uterine irritability (0=no; 1=yes)                 # 
+#pvft	            Number of physician visits during first trimester              #
+#bwt	            Child's birthweight in grams                                   #
 ##################################################################################
 
 #Load data into R - you have to know the directory where the data are!
